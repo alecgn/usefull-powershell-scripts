@@ -2,9 +2,9 @@
 ### A Windows Powershell script to backup an entire folder to another, with compression support (no need for third-party compression programs).
 
 **Usage examples:**
->**PS C:\scripts\> .\backup-directory -Source C:\inetpub\wwwroot -Destination D:\backups -CreateDateMaskDirectory -Zip**  
+>**PS C:\scripts\> .\backup-directory.ps1 -Source C:\inetpub\wwwroot -Destination D:\backups -CreateDateMaskDirectory -Zip**  
 
->**PS C:\scripts\> .\backup-directory -Source C:\inetpub\wwwroot -Destination \\\\server\backups -CreateDateMaskDirectory -Zip**
+>**PS C:\scripts\> .\backup-directory.ps1 -Source C:\inetpub\wwwroot -Destination \\\\server\backups -CreateDateMaskDirectory -Zip**
 
 **Parameters:**
 
