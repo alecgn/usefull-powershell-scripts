@@ -7,7 +7,7 @@
 )
 
 if (-not (Test-Path $CertPath)) {
-    $certpath_not_found_error = New-Object System.ArgumentException "Certificate`"$($CertPath)`" doesn't exists."
+    $certpath_not_found_error = New-Object System.ArgumentException "Certificate or store `"$($CertPath)`" doesn't exists."
     Throw $certpath_not_found_error
 }
 else {
