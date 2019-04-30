@@ -6,7 +6,7 @@ if ($CreateDateMaskDirectory) {
 }
 
 $datetimeMask = Get-Date -Format yyyy-MM-dd_HH-mm-ss
-$backupName = "IISBackup_$($datetimeMask)"
+$backupName = "IIS_config_backup_$($datetimeMask)"
 $iisDefaultBackupDir = "$($env:Windir)\System32\inetsrv\backup"
 $backupDir = "$($iisDefaultBackupDir)\$($backupName)"
 
